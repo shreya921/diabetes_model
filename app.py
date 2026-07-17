@@ -89,7 +89,22 @@ interface = gr.Interface(
     title="🩺 Diabetes Prediction System",
 
     description="""
-Predict whether a patient is likely to have diabetes using a trained Decision Tree Machine Learning model.
+### 🩺 About this Project
+
+This web application predicts whether a patient is likely to have diabetes using a Decision Tree Machine Learning model.
+
+---
+
+**👩‍💻 Developed By:** Shreya Goel
+
+**🎓 Roll Number:** 28240023
+
+**🏫 College:** Panipat Institute of Engineering and Technology (PIET)
+
+**📚 Department:** B.Tech – Computer Science & Engineering (CSE)
+
+**🔗 LinkedIn:**  
+https://www.linkedin.com/in/shreya-goel-6b5a902bb
 """,
 
     submit_btn="🔍 Predict Diabetes",
