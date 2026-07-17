@@ -1,3 +1,21 @@
+description="""
+### 🩺 About this Project
+
+This web application predicts whether a patient is likely to have diabetes using a Decision Tree Machine Learning model.
+
+---
+
+**👩‍💻 Developed By:** Shreya Goel
+
+**🎓 Roll Number:** 28240023
+
+**🏫 College:** Panipat Institute of Engineering and Technology (PIET)
+
+**📚 Department:** B.Tech – Computer Science & Engineering (CSE)
+
+**🔗 LinkedIn:**  
+https://www.linkedin.com/in/shreya-goel-6b5a902bb
+"""
 import os
 import gradio as gr
 import joblib
