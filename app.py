@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 import joblib
 
@@ -60,4 +61,8 @@ Enter the patient's medical information below to predict whether the person is l
 """
 )
 
-interface.launch()
+if __name__ == "__main__":
+    interface.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860))
+    )
